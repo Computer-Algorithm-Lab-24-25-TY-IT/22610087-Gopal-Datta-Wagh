@@ -45,3 +45,6 @@ int main(){
     return 0;
 
 }
+
+output of code :
+![output](https://github.com/user-attachments/assets/aa185a71-ef22-4aed-a1c5-f6dd2211eb07)
