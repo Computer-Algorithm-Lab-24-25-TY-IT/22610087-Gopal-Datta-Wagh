@@ -6,11 +6,8 @@ Gopal Datta Wagh
 Code is to find Minimum number of matrix element multiplication required :
 #include<bits/stdc++.h>
 using namespace std;
-
-
 int Matrix_chain_Mul(vector<int> &arr, int n){
     vector<vector<int>> dp(n, vector<int>(n));
-
     int i,j,k,l,cnt;
     for(i=1;i<n;i++){
         dp[i][i] = 0;
@@ -39,9 +36,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-
     cout<<"Minimum number of matrix element multiplication is : "<<endl<<Matrix_chain_Mul(arr,n);;
-    
     return 0;
 
 }
